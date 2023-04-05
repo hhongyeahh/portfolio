@@ -1,0 +1,109 @@
+
+body{
+  background-color: white;
+  background-image: url(../images/04230011.jpg);
+  background-repeat: no-repeat;
+  background-size:  cover;
+}
+
+/* position-section */
+.material-symbols-outlined {
+    
+  margin:0px 40px;
+  display: flex;
+  border-radius:200px;
+  padding:5px;
+  position:fixed;
+
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 600,
+  'GRAD' 200,
+  'opsz' 48;
+
+  visibility: hidden;
+
+}
+
+/* navigator bar */
+.navigator{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 40px 20px;
+
+}
+
+/* position-section */
+
+.material-symbols-outlined {
+    
+  margin:0px 40px;
+  display: flex;
+  border-radius:200px;
+  padding:5px;
+  position:fixed;
+
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 600,
+  'GRAD' 200,
+  'opsz' 48;
+
+}
+
+/* 전체 여백 한번에 설정 */
+.frame{ 
+  margin: 30px, 150px;
+  display:flex;
+  flex-direction: column;
+}
+
+
+li{
+  display: inline;
+  align-self: center;
+  margin: 0;
+  margin-left: 15px;
+}
+
+ul{
+  margin: 0;
+}
+
+.site-name{
+  margin:0;
+  margin-left:60px;
+  font-family: "Noto Serif", sans-serif ;
+  font-size: 25px;
+  font-weight:bold;
+  color: #000000;
+}
+
+.nav-menu{
+  font-family: "Noto Serif", sans-serif ;
+  font-weight: 400px;
+  font-size: 15px;
+}
+
+a{
+  color: #000;
+  text-decoration: none;
+}
+
+a:hover{
+  color: #FFFFFF;
+  transition: 0.3s;
+}
+
+a.nav-menu--special{
+  color: #678063;
+  font-family: "Noto Serif", sans-serif ;
+  font-weight: 500px;
+  font-size: 15px;
+}
+
+a.nav-menu--special:hover{
+  color: #FFFFFF;
+  transition: 0.3s;
+}
